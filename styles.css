@@ -1,77 +1,20 @@
-
-* {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #fff7ec;
 }
-body{
-    color:white;
-    
- 
+.img-fluid{
+  height: 350px;
+  width: 350px;
 }
- header{
-    background-image: url("images/image1.jpg");
-    height:125vh;
-    background-size: cover;
-    background-position: top;
-    clip-path:polygon(0 0,100% 0,100% 85vh,0 100%); 
-    
+.navbar-nav{
+  font-size: 20px;
+  padding:
 }
-.logo-img{
-    border:white 5px solid;
-    border-radius: 50%;
-    margin-right: 20px;
+.navbar-brand{
+  margin-left: 20px;
+ color: purple;
 }
-.nav-menus{
-    margin-left:20rem;
-}
-.nav-item{
-    padding:10px;
-}
-.custom-toggler.navbar-toggler {
-    border-color: white;;
-}
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-.center-body{
-height:500px;
-}
-
-.footer{
-
-    font-weight:10;
-    padding:3rem;
-    background-color:#17223b; 
-}
-.footer-container{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-}
-.sec-1{
-    width:30%;
-}
-a{
-    text-decoration: none;
-   color:white;
-  }
-  a:hover{
-      text-decoration: none;
-      color:white;
-  }
-li{
-    list-style: none;
-    padding-top:1em;
-}
-.social-links{
-    text-align: center;
-}
-.social-icons{
-    margin:1em;
-}
-.social-icons a{
-    margin:15px;
+.main{
+  font-family: 'Nunito', sans-serif;
 }
